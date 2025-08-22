@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parenting and Child Well-being Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="img">
+        <img src="https://cdn.shopify.com/s/files/1/2013/0229/files/5_Steps_to_help_children_cope_with_stress.jpg?v=1660757302"
+            alt="image" height="90%" width="50%">
+
+    </div>
+    <div class="container">
+
+        <div id="start-section">
+            <img src="data:image/png;base64,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"
+                alt="wiz logo" height="30%" width="30%">
+            <h1>Welcome to the Well-being App</h1>
+            <button id="start-btn" class="btn">Quiz for Parents</button>
+        </div>
+
+        <div id="quiz-container" class="quiz-section">
+            <h2 id="question"></h2>
+            <div class="options">
+                <button class="option-btn btn"></button>
+                <button class="option-btn btn"></button>
+                <button class="option-btn btn"></button>
+                <button class="option-btn btn"></button>
+            </div>
+        </div>
+
+        <div id="result" class="quiz-section">
+            <h2>Your Parenting Care Score: <span id="care-score"></span></h2>
+            <div id="result-tips"></div>
+            <button id="ask-child-btn" class="btn">Ask Child Questions</button>
+        </div>
+
+        <div id="child-quiz-container" class="quiz-section">
+            <h2 id="child-question"></h2>
+            <div class="options">
+                <button class="child-option-btn btn"></button>
+                <button class="child-option-btn btn"></button>
+                <button class="child-option-btn btn"></button>
+                <button class="child-option-btn btn"></button>
+            </div>
+        </div>
+
+        <div id="child-result" class="quiz-section">
+            <h2>Your Child's Score: <span id="child-score"></span></h2>
+            <div id="child-tips"></div>
+            <a href="https://www.google.com/search?q=top+childcare+mental+health+experts&sca_esv=b5f308da97a3efdb&rlz=1C1CHBF_en-GBIN1083IN1083&ei=kY8bZ_OgOZSd4-EPg7bWiQk&ved=0ahUKEwizrdLbxKmJAxWUzjgGHQObNZEQ4dUDCBA&uact=5&oq=top+childcare+mental+health+experts&gs_lp=Egxnd3Mtd2l6LXNlcnAiI3RvcCBjaGlsZGNhcmUgbWVudGFsIGhlYWx0aCBleHBlcnRzMgcQIRigARgKMgcQIRigARgKMgcQIRigARgKMgUQIRifBUjCX1CdDlibRnABeAGQAQCYAbkCoAHpC6oBBTItNS4xuAEDyAEA-AEBmAIHoAKCDMICChAAGLADGNYEGEfCAggQABiABBiiBMICBBAhGArCAgoQIRigARjDBBgKmAMA4gMFEgExIECIBgGQBgiSBwcxLjAuNS4xoAfNHA&sclient=gws-wiz-serp"
+                id="consult-expert-btn" class="btn">Consult a Child Expert</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
